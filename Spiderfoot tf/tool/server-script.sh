@@ -3,7 +3,7 @@ sudo apt update -y
 sudo wget https://github.com/smicallef/spiderfoot/archive/v3.2.1.tar.gz
 sudo tar zxvf v3.2.1.tar.gz
 cd spiderfoot-3.2.1
-sudo bash -c 'echo "ficocsc:ficocsc" > passwd'
+sudo bash -c 'echo "username:password" > passwd'
 sudo ./generate-certificate
 sudo apt install python3-pip -y
 sudo -H pip3 install --upgrade pip
